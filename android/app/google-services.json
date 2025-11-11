@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "318623656193",
+    "project_id": "attendents-app",
+    "storage_bucket": "attendents-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318623656193:android:07ad3647aff330a9e45300",
+        "android_client_info": {
+          "package_name": "com.ataandsss.naufal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu4e_9ivw_4KH0TWhB2TvfxbGxX_NpW5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
