@@ -3,7 +3,6 @@ import 'package:attendance_app/ui/absent/absent_screen.dart';
 import 'package:attendance_app/ui/attend/attend_screen.dart';
 import 'package:attendance_app/ui/attendance_history/attendance_history_screen.dart';
 
-
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
@@ -44,7 +43,7 @@ class HomeScreen extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => const AbsentScreen(),
+                          builder: (context) => const AttendScreen(),
                         ),
                       );
                     },
@@ -52,7 +51,7 @@ class HomeScreen extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Image(
-                          image: AssetImage('asse   ts/images/ic_absen.png'),
+                          image: AssetImage('assets/images/ic_absen.png'),
                           height: 100,
                           width: 100,
                         ),
@@ -75,7 +74,7 @@ class HomeScreen extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => const AttendScreen(),
+                          builder: (context) => const AbsentScreen(),
                         ),
                       );
                     },
